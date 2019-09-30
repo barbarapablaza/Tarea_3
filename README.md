@@ -105,7 +105,7 @@ Respuesta: Al aplicar la función:
 Suma<-function(a,b){
   a+b
 }
-Suma(3,4)
+Suma(3,4). Resultado = 7
 
 Podemos usar el comando “Suma” para de esa manera sumar números enteros, poniéndolos en las posiciones a y b respectivamente. Es así como tras crear las demás operaciones matemáticas, (donde se define un código, para cada una de las operaciones simples) el programa asume esta nueva orden, dándole un nombre para que asuma que de ese modo debe continuar.
 
@@ -119,6 +119,7 @@ Figura 1. En el del rectángulo se uso la siguiente función.
 area_rectangulo<-function(base1,altura1,base2,altura2){
   abs((base1*altura1)-(base2*altura2))
 } . 
+
 area_rectangulo(20,6,6,7). Resultado= 78
 area_rectangulo(450,300,300,250). Resultado= 6000
 
@@ -129,6 +130,7 @@ Figura 2. En el caso del círculo use la función.
 area_circulo<-function(radio1,radio2){
   abs((pi*radio1^2)-(pi*radio2^2))
 }
+
 area_circulo(6,9). Resultado= 141.3717
 area_circulo(4,3). Resultado= 21.99115
 
